@@ -1,0 +1,22 @@
+{
+  "name": "ReachBOTApp",
+  "version": "0.0.1",
+  "description": "An Ionic project",
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "angular-simple-logger": "^0.1.7",
+    "cordova-plugin-geolocation": "^4.0.1",
+    "geolocation-marker": "^2.0.5",
+    "ui-leaflet": "^1.0.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-geolocation": {}
+    }
+  }
+}

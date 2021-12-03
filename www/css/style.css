@@ -1,0 +1,46 @@
+/* Empty. Add your own CSS if you like */
+/* #mapid { height: 180px; 
+            width: 180px} */
+
+/* #div-wrapper 
+{
+position:relative;
+height: 100%;
+width: 100%;
+}
+                 */
+
+                 /* body{
+                    top: 0px !important;
+                    } */
+
+#map
+{
+height: 100%;
+width: 100%;
+}
+
+#overmap
+{
+      top: 10px; left: 10px; z-index: 99;
+
+      position: absolute;
+}
+
+/* #bottomsheet
+{
+    position: fixed !important;
+    z-index: 100;
+}
+
+ */
+
+
+ .modal.bottom-sheet {
+    bottom: 0;  
+    min-height: initial;
+    top: initial;
+    height: 50%;
+    border-width: 1px;
+    border-style: solid;
+  }

@@ -1,0 +1,21 @@
+{
+  "name": "ionic-app-base",
+  "app_id": "33520db9",
+  "type": "ionic1",
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "proxies": [
+    {
+      "path": "/lta",
+      "proxyUrl": "http://datamall2.mytransport.sg/ltaodataservice/"
+    }
+  ]
+}
