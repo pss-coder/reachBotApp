@@ -1,4 +1,6 @@
-#README
+# README
+
+## Requires ionic development installed to run reachBotApp
 
 1.Ensure you are running on port 8100, else go to www/js/services -> Under BusService Factory -> change url port accordingly (this is to connect to lta endpoint )
 
